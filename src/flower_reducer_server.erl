@@ -4,7 +4,7 @@
 %%%   Handles reducers workflow.
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_reducer_server).
+-module(flower_reducer_server).
 -behavior(gen_server).
 
 -export([
@@ -20,7 +20,7 @@
     code_change/3
 ]).
 
--include("bidbox_flower_include.hrl").
+-include("internal.hrl").
 
 start_link(ReducerModule, RemainingFlowRefs) ->
     gen_server:start_link(bidbox_flower_reducer_server, [ReducerModule, RemainingFlowRefs], []).

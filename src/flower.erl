@@ -4,7 +4,7 @@
 %%% result merging. This is the main flower module.
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower).
+-module(flower).
 
 -export([
     init/0,

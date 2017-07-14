@@ -3,7 +3,7 @@
 %%% @doc Flower workers' supervisor. Gotta keep an eye on these guys...
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_flow_sup).
+-module(flower_flow_sup).
 
 -behaviour(supervisor).
 

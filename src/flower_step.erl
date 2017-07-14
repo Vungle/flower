@@ -4,7 +4,7 @@
 %%% everything that is not data, should be a step.
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_step).
+-module(flower_step).
 
 -callback run(list(), map()) ->
     {ok, list()} | {error, atom()}.

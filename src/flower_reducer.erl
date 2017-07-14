@@ -17,8 +17,8 @@
 %%% @end
 %%%-------------------------------------------------------------------
 
--module(bidbox_flower_reducer).
--include("bidbox_flower_include.hrl").
+-module(flower_reducer).
+-include("internal.hrl").
 
 %% Called everytime the worker gets a reducer. Reducer should return
 %% {ok, NewState} unless it wants to continue before getting all results.

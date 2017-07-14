@@ -2,9 +2,9 @@
 %%% @doc This reduces the given lists by merging them together
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_merge_reducer).
--behavior(bidbox_flower_reducer).
--include("../../src/flower/bidbox_flower_include.hrl").
+-module(flower_merge_reducer).
+-behavior(flower_reducer).
+-include("internal.hrl").
 
 -export([
     handle_step_done/2,

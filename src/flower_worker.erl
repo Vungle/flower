@@ -4,9 +4,7 @@
 %%%  Run pipelines and spawn workers.
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_worker).
-
--include_lib("eunit/include/eunit.hrl").
+-module(flower_worker).
 
 -export([
     start_link/4,

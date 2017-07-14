@@ -4,8 +4,8 @@
 %%% Simple step, that echoes back whatever it receives.
 %%% @end
 %%%-------------------------------------------------------------------
--module(bidbox_flower_echo_step).
--behavior(bidbox_flower_step).
+-module(flower_echo_step).
+-behavior(flower_step).
 
 -export([
     run/2
